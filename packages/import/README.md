@@ -21,7 +21,7 @@ SyntaxError: 'import' and 'export' may only appear at the top level (10:4)
 
 或者 不用 `babel-loader` 也可以实现
 
-由此可见`stage-0` 只是语法检查？
+由此可见`stage-0` 只是语法检查？关注"modules": false的作用
 ### "modules": false 作用
 "modules": false: 关闭babel的模块转换功能，保留原本的es6模块化语法。
 可以分别指定'commonjs' (default), 'amd', 'umd', 'systemjs' 这些值对比生成后的区别
